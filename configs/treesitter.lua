@@ -14,6 +14,10 @@ local opts = {
     },
 
     indent = { enable = true },
+
+    autotag = {
+        enable = true
+    },
 }
 
 return opts
