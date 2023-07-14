@@ -7,6 +7,7 @@ local opts = {
     "typescript-language-server",
     "stylua",
     "tsserver",
+    "svelte",
   },
 }
 

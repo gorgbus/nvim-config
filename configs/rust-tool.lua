@@ -4,8 +4,8 @@ local capabilities = require("plugins.configs.lspconfig").capabilities
 local options = {
   server = {
     on_attach = on_attach,
-    capabilities = capabilities
-  }
+    capabilities = capabilities,
+  },
 }
 
 return options
