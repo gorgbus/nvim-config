@@ -9,6 +9,7 @@ local opts = {
     "typescript",
     "sql",
     "svelte",
+    "c",
   },
 
   highlight = {

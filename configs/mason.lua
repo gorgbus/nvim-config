@@ -6,8 +6,11 @@ local opts = {
     "css-lsp",
     "typescript-language-server",
     "stylua",
-    "tsserver",
-    "svelte",
+    "svelte-language-server",
+    "clangd",
+    "clang-format",
+    "prettierd",
+    "tailwindcss-language-server",
   },
 }
 
