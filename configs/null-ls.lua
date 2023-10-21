@@ -4,10 +4,11 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 local formatting = null_ls.builtins.formatting
 
 local sources = {
-  -- formatting.phpcsfixer,
   formatting.stylua,
   formatting.clang_format.with {
-    style_options = {},
+    extra_args = {
+      "-style={IndentWidth: 4}",
+    },
   },
   formatting.prettierd.with {
     extra_filetypes = {
